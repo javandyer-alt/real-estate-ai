@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+<<<<<<< HEAD
 from pydantic import BaseModel
 import os
 from openai import OpenAI
@@ -21,3 +22,5 @@ def analyse(deal: Deal):
     return {
         "result": response.output_text
     }
+
+
